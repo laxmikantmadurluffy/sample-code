@@ -1,0 +1,24 @@
+{
+  "name": "stark",
+  "version": "1.0.0",
+  "description": "stark",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/_mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "json-stringify-safe": "^5.0.1",
+    "mongoose": "^5.9.28"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.1.1",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  }
+}
